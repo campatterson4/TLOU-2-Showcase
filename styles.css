@@ -20,4 +20,61 @@
     list-style-type: none;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
+    color: var(--white);
+    background-color: var(--medium-green);
 }
+
+/* ---- HEADER ---- */
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    padding: 2rem 4rem;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    border-bottom: 0.063rem solid transparent;
+    transition: all .45s ease;
+    width: 100%;
+}
+
+.name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.name span {
+    color: var(--darkest-green);
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin: 0 1.563rem;
+    font-size: .85rem;
+    transition: all .45s ease-in-out;
+    text-transform: uppercase;
+}
+
+.links a.active {
+    color: var(--darkest-green);
+}
+
+.links a:hover {
+    color: var(--darkest-green);
+}
+
+.material-symbols-rounded {
+    display: none;
+    z-index: 999;
+    cursor: pointer;
+    margin-left: 1.563rem !important;
+    display: none !important;
+}
+
+
+
