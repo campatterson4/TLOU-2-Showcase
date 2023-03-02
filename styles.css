@@ -1,0 +1,20 @@
+/* ---- ALL ---- */
+
+:root {
+    --black: #424242;
+    --white: #E3e5e8;
+    --grey: #C0C0C0;
+    --darkest-green: #10130A;
+    --dark-green: #2B2F22;
+    --light-green: #51573E;
+    --medium-green: #51573E;
+    --matte-green: #10130A;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
