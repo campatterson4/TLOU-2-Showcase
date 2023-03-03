@@ -131,19 +131,15 @@ section {
     padding: 0 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.buttons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.2rem;
+}
 
 .read-more {
+    display: inline-block;
     position: relative;
     padding: 15px 45px;
     margin-left: 3rem;
@@ -262,5 +258,12 @@ section {
     100% {
       transform: rotate(0);
     }
+  }
+
+  .trailer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.188rem;
   }
 
