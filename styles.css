@@ -111,20 +111,24 @@ section {
     margin-right: 0.938rem;
     margin-bottom: 2.3rem;
     padding: 0 .5rem;
+    text-transform: uppercase;
 }
 
 .reveal h3 {
-    padding: 0 1.3rem;
+    padding: 0 12rem;
+    padding-top: .5rem;
     font-size: 1.5rem;
     color: var(--lightest-green);
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .reveal p {
     margin-top: 1.3rem;
+    margin-left: .5rem;
     margin-bottom: 3rem;
     width: 40%;
-    padding: 0 1.2rem;
+    padding: 0 1rem;
 }
 
 
