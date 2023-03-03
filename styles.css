@@ -52,6 +52,7 @@ header {
 header.sticky {
     background-color: var(--medium-green);
     text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 header.sticky span {
@@ -289,3 +290,17 @@ section {
 
 
   /* ---- PLOT ---- */
+  .plot {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    background: url(./images/plot-bg.jpg);
+    background-size: cover;
+  }
+
+  .plot-img img {
+    height: auto;
+    max-width: 35rem;
+  }
+
